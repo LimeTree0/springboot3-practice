@@ -3,7 +3,6 @@ package com.example.springboot3practice.web;
 import com.example.springboot3practice.service.posts.PostsService;
 import com.example.springboot3practice.web.dto.PostsResponseDto;
 import lombok.RequiredArgsConstructor;
-import org.h2.engine.Mode;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
