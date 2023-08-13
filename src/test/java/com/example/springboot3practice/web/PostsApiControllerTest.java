@@ -86,7 +86,7 @@ class PostsApiControllerTest {
                 .title(expectedTitle)
                 .build();
 
-        String url = "http://localhost:" + port + "/api/v1/posts" + savePosts.getId();
+        String url = "http://localhost:" + port + "/api/v1/posts/" + savePosts.getId();
 
         HttpEntity<PostsUpdateRequestDto> requestEntity = new HttpEntity<>(requestDto);
 
